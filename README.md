@@ -31,6 +31,12 @@ Run a specific suite of test (previously defined in wdio.conf.js)):
 yarn wdio --suite=homepage
 ```
 
+Run a accessibility suite and generate a json file report in a11y folder:
+
+```bash
+yarn wdio --suite=a11y
+```
+
 Run all tests in headless mode:
 
 ```bash

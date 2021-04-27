@@ -4,3 +4,6 @@ package-lock.json
 
 #Visual testing
 screenshots/
+
+# Axe reports
+webdriverio/test/specs/on-merge/a11y/*.json

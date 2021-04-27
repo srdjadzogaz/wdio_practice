@@ -48,9 +48,10 @@ switch (process.env.browser) {
 exports.config = {
   breakpoint: process.env.breakpoint,
   runner: 'local',
-  specs: ['./webdriverio/specs/*.js'],
+  specs: ['./webdriverio/specs/**/*.js'],
   suites: {
     homepage: ['./webdriverio/specs/homepageBasic.js', './webdriverio/specs/homepage.js'],
+    a11y: ['./webdriverio/specs/a11y/*.js'],
   },
   exclude: ['./webdriverio/page-objects/*.js'],
   capabilities,
