@@ -53,3 +53,4 @@ browser=firefox yarn wdio
 
 - homepageBasic.js is spec for testing the homepage title and logo, but without any page-object files used.
 - homepage.js does the same as homepageBasic.js, but it uses the page-object modal, in this case it has a homepage.page.js file where all selectors and methods are defined (and homepage.page.js extends page.js so it can use all selectors/methods from page.js).
+- a11y is folder containing accesibiliity testing specs, using axe-core. When we run that spec, it generates a JSON file report with violations reported by axe
