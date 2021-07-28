@@ -3,7 +3,7 @@ class Page {
     this.path = path;
   }
   get logo() { return $('[data-test-id="global-menu-btn"'); }
-  
+
   open () {
     browser.url(this.path);
   }
