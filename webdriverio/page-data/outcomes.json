@@ -1,0 +1,53 @@
+{
+  "Elements": [
+    {
+      "name": "bigText1",
+      "dataId": "points-35-big-text",
+      "value": "3.5",
+      "type": "Text",
+      "description": "Statistics"
+    },
+    {
+      "name": "bigText2",
+      "dataId": "points-680-big-text",
+      "value": "680",
+      "type": "Text",
+      "description": "Statistics"
+    },
+    {
+      "name": "bigText3",
+      "dataId": "points-half-big-text",
+      "value": "Half",
+      "type": "Text",
+      "description": "Statistics"
+    },
+    {
+      "name": "bigText4",
+      "dataId": "points-11-big-text",
+      "value": "1.1",
+      "type": "Text",
+      "description": "Statistics"
+    },
+    {
+      "name": "bigText5",
+      "dataId": "points-5-big-text",
+      "value": "5",
+      "type": "Text",
+      "description": "Statistics"
+    },
+    {
+      "name": "bigText6",
+      "dataId": "points-800-big-text",
+      "value": "800",
+      "type": "Text",
+      "description": "Statistics"
+    },
+    {
+      "name": "bigText7",
+      "dataId": "points-98-big-text",
+      "value": "98",
+      "type": "Text",
+      "description": "Statistics"
+    }
+  ]
+}

@@ -1,9 +1,12 @@
 node_modules/
 package-lock.json
 .DS_Store
+yarn.lock
+*report.json
 
 #Visual testing
 screenshots/
 
 # Axe reports
 webdriverio/test/specs/on-merge/a11y/*.json
+.vscode/settings.json

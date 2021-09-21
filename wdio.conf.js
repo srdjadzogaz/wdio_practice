@@ -12,7 +12,7 @@ const seleniumOptions = {
 };
 let capabilities;
 let headless;
-// headless or headded mode depending on arg 
+// headless or headed mode depending on arg 
 switch (process.env.headless) {
   case 'yes':
     headless = ['--headless'];
